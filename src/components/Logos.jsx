@@ -1,8 +1,9 @@
-import reactLogo from "../assets/react.svg";
-import technigoLogo from "../assets/technigo-logo.svg";
 import viteLogo from "/vite.svg";
 
-function Logos() {
+import reactLogo from "../assets/react.svg";
+import technigoLogo from "../assets/technigo-logo.svg";
+
+const Logos = () => {
   return (
     <div>
       <div>

@@ -1,5 +1,5 @@
 // TODO: Import necessary modules and data
-function Home() {
+const Home = () => {
   // TODO: Implement logic to display the list of songs
   return (
     <>

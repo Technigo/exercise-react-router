@@ -12,9 +12,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -24,15 +26,19 @@ li {
 }
 
 .app-ul {
-  list-style-type: none; /* Remove bullets */
-  padding: 0; /* Remove padding */
-  margin: 0; /* Remove margin */
+  list-style-type: none;
+  /* Remove bullets */
+  padding: 0;
+  /* Remove padding */
+  margin: 0;
+  /* Remove margin */
   display: flex;
   justify-content: space-between;
 }
 
 .app-li {
-  margin-bottom: 10px; /* Add some space between list items */
+  margin-bottom: 10px;
+  /* Add some space between list items */
 }
 
 .heading {
@@ -43,6 +49,7 @@ li {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
